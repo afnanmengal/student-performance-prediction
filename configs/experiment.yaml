@@ -1,0 +1,9 @@
+random_state: 42
+target_regression: G3
+target_classification: performance_band
+grade_bands:
+  at_risk: [0, 9]
+  developing: [10, 13]
+  proficient: [14, 16]
+  advanced: [17, 20]
+cross_validation_folds: 5
